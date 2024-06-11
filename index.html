@@ -6,43 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Mendes - Investimentos</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0F0F0F;
+            color: #FFF;
+            text-align: center;
+        }
+
+        nav {
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #FFF;
+            transition: color 0.3s;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #FFCC00;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 50px 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #FFCC00;
+            color: #111;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #FFF;
+            color: #111;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
 
     <main>
-        <section class="Empresa">
+        <section>
             <h2>Últimas Postagens</h2>
             <p>Conteúdo da área de postagens...</p>
         </section>
 
-        <section class="Quem somos nós?">
+        <section>
             <h2>Sobre Nós</h2>
             <p>Conteúdo sobre a empresa...</p>
         </section>
 
-        <section class="Oportunidades de trabalho">
+        <section>
             <h2>Nossos Serviços</h2>
             <p>Descrição dos serviços oferecidos...</p>
         </section>
 
-        <section class="Fale conosco">
-            <h2>Últimas Postagens</h2>
-            <p>Conteúdo da área de postagens...</p>
-        </section>
-
-        <section class="Filiais">
-            <h2>Últimas Postagens</h2>
-            <p>Conteúdo da área de postagens...</p>
+        <section>
+            <h2>Contate-nos</h2>
+            <p>Informações de contato...</p>
         </section>
     </main>
 
@@ -54,7 +149,5 @@
         </form>
     </footer>
 </body>
+
 </html>
-
-
-

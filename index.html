@@ -10,13 +10,13 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #0F0F0F;
+            background-color: #21496b;
             color: #FFF;
             text-align: center;
         }
 
         nav {
-            padding: 20px 0;
+            padding: 10px 0;
         }
 
         nav ul {
@@ -42,7 +42,7 @@
         }
 
         nav ul li a:hover {
-            color: #FFCC00;
+            color: #21496b;
         }
 
         main {
@@ -68,8 +68,8 @@
         }
 
         footer {
-            background-color: #111;
-            padding: 50px 20px;
+            background-color: #21496b;
+            padding: 10px 10px;
         }
 
         form {
@@ -85,7 +85,7 @@
 
         input[type="email"] {
             padding: 10px;
-            width: 300px;
+            width: 10px;
             margin-bottom: 20px;
             border-radius: 5px;
             border: none;
@@ -94,8 +94,8 @@
 
         button[type="submit"] {
             padding: 10px 20px;
-            background-color: #FFCC00;
-            color: #111;
+            background-color: #21496b;
+            color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -112,38 +112,37 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#"><h2>[Header]</h2></a></li>
+
         </ul>
     </nav>
 
     <main>
         <section>
-            <h2>Últimas Postagens</h2>
-            <p>Conteúdo da área de postagens...</p>
+            <h2>[Nav]</h2>
+            <p>Item 1 Item 2 Item 3 Item 4 Item 5</p>
         </section>
 
         <section>
-            <h2>Sobre Nós</h2>
-            <p>Conteúdo sobre a empresa...</p>
+            <h2>[Article]</h2>
+            <h2>[Article Header]</h2>
+            <p>[Article Paragraph]</p>
         </section>
 
         <section>
-            <h2>Nossos Serviços</h2>
-            <p>Descrição dos serviços oferecidos...</p>
+            <h2>[Aside]</h2>
+            <h2>[Aside Header]</h2>
+            <p>[Aside Paragraph]</p>
         </section>
 
         <section>
-            <h2>Contate-nos</h2>
-            <p>Informações de contato...</p>
+            <p>Footer</p>
         </section>
     </main>
 
     <footer>
         <form>
-            <label for="email">Receba nossas atualizações:</label>
+            <label for="email">Subscribe to our newsletter:</label>
             <input type="email" id="email" name="email" placeholder="Seu e-mail">
             <button type="submit">Inscrever-se</button>
         </form>
